@@ -7,42 +7,49 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Baking You Happy - Cakes</title>
+    
 </head>
 <body>
-<div class="wrapper">
-    <header class="main-header">
-        <nav class="navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="home.php" class="navbar-brand">
-                        <img src="images/logo.jpg" alt="Logo" class="logo">
-                        <span class="acronym">BYH</span>
-                    </a>
-                </div>
-                <div class="navbar-links">
-                    <ul>
-                        <li><a href="home.php">HOME</a></li>
-                        <li><a href="about.php">ABOUT US</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropbtn">CATEGORY <span class="caret">▼</span></a>
-                            <div class="dropdown-content">
-                                <a href="pastries.php">Pastries</a>
-                                <a href="cakes.php">Cakes</a>
-                                <a href="desserts.php">Desserts</a>
-                            </div>
-                        </li>
-                        <li>
-                            <form method="POST" action="search.php" class="search-form">
-                                <input type="text" name="keyword" placeholder="Search" required>
-                                <i class="fas fa-shopping-cart cart-icon"></i>
-                                <i class="fas fa-user profile-icon"></i>
-                            </form>
-                        </li>
-                    </ul>
-                </div>
+    <div class="wrapper">
+        <header class="main-header">
+            <div class="header-text">
+                <h1>Pastries That'll <br> Make You Smile</h1>
             </div>
-        </nav>
-    </header>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="home.php" class="navbar-brand">
+                        </a>
+                    </div>
+                    <div class="navbar-links">
+                        <ul>
+                            <li><a href="home.php">HOME</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">CATEGORY <span class="caret">▼</span></a>
+                                <div class="dropdown-content">
+                                    <a href="pastries.php">Pastries</a>
+                                    <a href="cakes.php">Cakes</a>
+                                    <a href="desserts.php">Desserts</a>
+                                </div>
+                            </li>
+                            <li><a href="about.php">ABOUT US</a></li>
+                            <li>
+                                <form method="POST" action="search.php" class="search-form">
+                                    <input type="text" name="keyword" placeholder="Search" required>
+                                    <a href="cart.php">
+                                    <i class="fas fa-shopping-cart cart-icon"></i>
+                                </a>
+                                <a href="profile.php">
+                                    <i class="fas fa-user profile-icon"></i>
+                                </a>
+                                    
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
     <div class="content">
         <div class="product-box">
