@@ -100,8 +100,8 @@
         <div class="payment-method">
             <h2>Payment Method</h2>
             <div class="payment-options">
-                <input type="radio" id="credit-card" name="payment" value="credit-card">
-                <label for="credit-card">Credit Card</label>
+                <input type="radio" id="paypal" name="payment" value="paypal">
+                <label for="paypal">PayPal</label>
                 <br>
                 <input type="radio" id="google-pay" name="payment" value="google-pay">
                 <label for="google-pay">Google Pay</label>
