@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Podkova:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/login.css">
-    <title>Baking You Happy</title>
+    <script src="main.js" defer type="module"></script>
+    
+    <title>Baking You Happy - Login</title>
 </head>
 <body>
-    <div class="image-container">
+<div class="image-container">
         <div class="gradient-overlay">
             <img src="images/bg.jpg" alt="Background" class="left-image">
         </div>
@@ -21,7 +23,8 @@
     <div class="text-container">
         <h2 class="greeting">Hello, Klasmeyt!</h2> 
         <p class="info">Welcome to Baking You Happy! Explore our delicious selection of pastries, cakes, and desserts. Enjoy a seamless shopping experience with real-time order tracking and secure payments.</p>
-        <button class="sign-in-button">Sign In with Google</button> 
+        <button id="google-signIn" class="sign-in-button"></button> 
     </div>
+
 </body>
 </html>
