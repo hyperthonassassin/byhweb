@@ -73,7 +73,9 @@
             </div>
     
             <div class="sign-out-container">
-                <button id="sign-out-btn" class="sign-out-button">Sign Out</button>
+                <a href="login.php">
+                    <button class="sign-out-button">Sign Out</button>
+                </a>
             </div>
         </div>
 
