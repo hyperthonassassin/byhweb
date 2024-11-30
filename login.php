@@ -23,7 +23,7 @@
     <div class="text-container">
         <h2 class="greeting">Hello, Klasmeyt!</h2> 
         <p class="info">Welcome to Baking You Happy! Explore our delicious selection of pastries, cakes, and desserts. Enjoy a seamless shopping experience with real-time order tracking and secure payments.</p>
-        <button id="google-signIn" class="sign-in-button"></button> 
+        <button id="google-signIn" class="sign-in-button">Sign In with Google</button> 
     </div>
 
 </body>

@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Podkova:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="main.js" defer type="module"></script>
     <title>Baking You Happy - Desserts</title>
     
 </head>
@@ -51,7 +52,7 @@
         </header>
 
     <div class="content">
-        <div class="product-box">
+        <div class="product-box" data-id="19">
             <div class="product-image">
                 <img src="images/dessert5.jpg" alt="Dessert Product 5">
             </div>
@@ -64,20 +65,20 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="18">
             <div class="product-image">
                 <img src="images/dessert4.jpg" alt="Dessert Product 4">
             </div>
             <div class="product-details">
                 <h2 class="product-name">Chocolate Tart</h2>
                 <div class="price-cart">
-                    <p class="product-price">190.00</p>
+                    <p class="product-price">₱190.00</p>
                     <span class="cart-button">🛒</span>
                 </div>
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="15">
             <div class="product-image">
                 <img src="images/dessert1.jpg" alt="Dessert Product 1">
             </div>
@@ -90,7 +91,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="17">
             <div class="product-image">
                 <img src="images/dessert3.jpg" alt="Dessert Product 3">
             </div>
@@ -103,7 +104,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="20">
             <div class="product-image">
                 <img src="images/dessert6.jpg" alt="Dessert Product 6">
             </div>
@@ -116,7 +117,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="16">
             <div class="product-image">
                 <img src="images/dessert2.jpg" alt="Dessert Product 2">
             </div>

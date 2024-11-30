@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Podkova:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="main.js" defer type="module"></script>
     <title>Baking You Happy - Cakes</title>
     
 </head>
@@ -52,7 +53,7 @@
         </header>
 
     <div class="content">
-        <div class="product-box">
+        <div class="product-box" data-id="9">
             <div class="product-image">
                 <img src="images/cake1.jpg" alt="Cake Product 1">
             </div>
@@ -65,7 +66,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="13">
             <div class="product-image">
                 <img src="images/cake5.jpg" alt="Cake Product 5">
             </div>
@@ -78,7 +79,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="10">
             <div class="product-image">
                 <img src="images/cake2.jpg" alt="Cake Product 2">
             </div>
@@ -91,7 +92,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="14">
             <div class="product-image">
                 <img src="images/cake6.jpg" alt="Cake Product 6">
             </div>
@@ -104,7 +105,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="12">
             <div class="product-image">
                 <img src="images/cake4.jpg" alt="Cake Product 4">
             </div>
@@ -117,7 +118,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="11">
             <div class="product-image">
                 <img src="images/cake3.jpg" alt="Cake Product 3">
             </div>
