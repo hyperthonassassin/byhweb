@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Podkova:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="main.js" defer type="module"></script>
     <title>Baking You Happy - Pastries</title>
     
 </head>
@@ -53,7 +54,7 @@
         </header>
 
     <div class="content">
-       <div class="product-box">
+       <div class="product-box" data-id="6">
             <div class="product-image">
                 <img src="images/pastry6.jpg" alt="Pastry Product 6">
             </div>
@@ -66,7 +67,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="3">
             <div class="product-image">
                 <img src="images/pastry3.jpg" alt="Pastry Product 3">
             </div>
@@ -79,7 +80,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="1">
             <div class="product-image">
                 <img src="images/pastry1.jpg" alt="Pastry Product 1">
             </div>
@@ -92,7 +93,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="4">
             <div class="product-image">
                 <img src="images/pastry4.jpg" alt="Pastry Product 4">
             </div>
@@ -105,7 +106,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="7">
             <div class="product-image">
                 <img src="images/pastry7.jpg" alt="Pastry Product 7">
             </div>
@@ -118,7 +119,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="2">
             <div class="product-image">
                 <img src="images/pastry2.jpg" alt="Pastry Product 2">
             </div>
@@ -131,7 +132,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="5">
             <div class="product-image">
                 <img src="images/pastry5.jpg" alt="Pastry Product 5">
             </div>
@@ -144,7 +145,7 @@
             </div>
         </div>
 
-        <div class="product-box">
+        <div class="product-box" data-id="8">
             <div class="product-image">
                 <img src="images/pastry8.jpg" alt="Pastry Product 8">
             </div>

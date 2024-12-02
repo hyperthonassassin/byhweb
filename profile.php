@@ -1,3 +1,24 @@
+<?php
+session_start(); // Start the session to retrieve user data
+
+// Check if the user clicked the sign-out button
+if (isset($_POST['signOut'])) {
+    // Destroy the session to log out the user
+    session_unset();  // Remove all session variables
+    session_destroy();  // Destroy the session
+
+    // Redirect the user to the login page
+    header('Location: login.php');
+    exit();
+}
+
+// Access the user data from the session (assumes user is logged in)
+$userName = $_SESSION['user']['name'];
+$userEmail = $_SESSION['user']['email'];
+$userPhoto = $_SESSION['user']['photo'];
+?>
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Podkova:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="main.js" defer type="module"></script>
-    <script src="update.js" defer type="module"></script>    
+    <script src="main.js" defer type="module"></script>   
     <title>Baking You Happy - Profile</title>
 </head>
 <body>
@@ -73,9 +93,10 @@
             </div>
     
             <div class="sign-out-container">
-                <a href="login.php">
-                    <button class="sign-out-button">Sign Out</button>
-                </a>
+                <!-- Sign-Out Form -->
+                <form method="POST" action="profile.php">
+                    <button type="submit" name="signOut" class="sign-out-button">Sign Out</button>
+                </form>
             </div>
         </div>
 
@@ -92,5 +113,17 @@
             </div>
         </footer>
     </div>
+
+    <!-- Pass PHP session data to JavaScript -->
+    <script>
+        const userName = "<?php echo $userName; ?>";
+        const userEmail = "<?php echo $userEmail; ?>";
+        const userPhoto = "<?php echo $userPhoto; ?>";
+
+        // Update profile elements
+        document.getElementById("userName").innerText = userName;
+        document.getElementById("userEmail").innerText = userEmail;
+        document.getElementById("userPhoto").src = userPhoto || "https://via.placeholder.com/100";
+    </script>
 </body>
 </html>
